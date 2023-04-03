@@ -21,7 +21,7 @@ ul {
 }
 
 .a {
-  text-decoration: none;
+  text-decoration: #ff8c00;
   display: inline-block;
   color: rgb(134, 132, 132);color: #6495Ed;
   transform: scale(1.1);
