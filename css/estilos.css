@@ -6,10 +6,14 @@
 body{
     font-family: 'PT Sans Narrow', sans-serif;
     min-height: 600px;
-    padding: 80px 0;
+    padding: 400px 0;
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
     background-color: aqua;
-    display: flex;
+    display: grid;
+    box-sizing: border-box;
+    margin: auto;
+
+
 }
 
 .main{
@@ -93,3 +97,12 @@ input{
     font: inherit;
     border-radius: .6em;
 }
+a{
+    background-color: #fee140;
+    color: rgb(7, 15, 22);
+    font-weight: 600;
+    margin: 3rem 0;
+    border-radius: .6em;
+
+}
+

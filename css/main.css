@@ -20,10 +20,12 @@ ul {
   list-style-type: none;
 }
 
-a {
+.a {
   text-decoration: none;
   display: inline-block;
-  color: rgb(134, 132, 132);
+  color: rgb(134, 132, 132);color: #6495Ed;
+  transform: scale(1.1);
+  border-radius: 2px;
 }
 
 img {
@@ -158,6 +160,10 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+}
+
+.a{
+  
 }
 
 footer {
